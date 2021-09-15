@@ -13,7 +13,8 @@ var db = mysql.createConnection({
     host:'localhost',
     user:'root',
     password:'',
-    database:'recepies'
+    database:'recepies',
+    port:'3306'
 });
 db.connect((error)=>{
     if(error){
